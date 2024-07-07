@@ -48,7 +48,7 @@ $(document).ready(function () {
     if (nova == 5) {
       var audio = new Audio("assets/musica.mp3");
       audio.loop = true;
-      audio.volume = 0.7;
+      audio.volume = 0.8;
       audio.play();
     }
 
