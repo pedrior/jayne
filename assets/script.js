@@ -63,7 +63,7 @@ $(document).ready(function () {
 
       setTimeout(() => {
         mostraMsgMes("final");
-      }, tempoAnimacao * 3);
+      }, tempoAnimacao * 2);
     }
   };
 
