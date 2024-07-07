@@ -105,57 +105,85 @@ $(document).ready(function () {
       case "24/5":
         titulo = "24 de Maio de 2024";
         mensagem =
-          "<p>Esse foi o dia que nos conhecemos. Foi bem rápido e conversamos tão pouquinho, mas já foi o suficiente para querer te conhecer cada vez mais.</p><p>Eu tinha muito receio, na verdade, eu não sabia se iríamos conversar novamente.</p>A propósito, você tem sido incrível desde este dia, quando eu ainda não sabia se teu nome verdadeiro era Jayne ou Juliana kkkk. Essa é uma longa e engraçada história que vamos rir bastante ao contar a alguém.</p>";
+          "<p>Esse foi o dia que nos conhecemos. Foi bem rápido e conversamos tão pouquinho, mas já foi o suficiente " +
+          "para querer te conhecer cada vez mais.</p><p>Eu tinha muito receio. Na verdade, eu não sabia se iríamos " +
+          "conversar novamente.</p>A propósito, você tem sido incrível desde este dia, quando eu ainda não sabia se " +
+          "teu nome verdadeiro era Jayne ou Juliana kkkk. Emfim, essa é uma longa e engraçada história que vamos rir " +
+          "bastante quando contarmos a alguém.</p>";
         break;
       case "26/5":
         titulo = "26 de Maio de 2024";
         mensagem =
-          "<p>Foi o dia em que tomei atitude e te chamei novamente no WhatsApp para conversarmos.<p>Você estava estudando nesse dia, preparando uma apresentação para o próximo dia. Lembro que estava um pouco tensa e ansiosa. Ficamos conversando quase a madrugada inteira.</p><Mas>No começo, foi engraçado porque eu não fazia ideia do que falar kkkkkk. Mas aí eu tirei a carta suprema da manga: enviei uma foto do meu gato. E funcionou!</p>";
+          "<p>Foi o dia em que tomei coragem e te chamei novamente no WhatsApp para conversarmos.</p><p>Você estava " +
+          "estudando nesse dia, preparando uma apresentação para o próximo dia. Lembro que estava um pouco tensa e " +
+          "ansiosa. Ficamos conversando quase a madrugada inteira enquanto eu voltava para João Pessoa</p><p>No " +
+          "começo, foi engraçado porque eu não fazia ideia do que falar kkkkkk. Mas aí eu tirei a carta suprema da " +
+          "manga: enviei uma foto do meu gato. E funcionou! Não paramos de conversar desde então, e cada vez mais " +
+          "próximos.</p>";
         break;
       case "4/6":
         titulo = "4 de Junho de 2024";
         mensagem =
-          "<p>Esse é um dos dias mais especiais para mim. Foi o dia em que marcamos nosso primeiro encontro. Você convidou-me a te acompanhar numa apresentação de Ballet e eu, sabendo que é algo que você ama, me senti muito feliz em poder te acompanhar.</p><p>Foi um dia incrível, cheio de risadas, conversas e muita cumplicidade.</p><p> Foi o dia em que percebi que você era muito mais do que eu imaginava.</p><p>Ah, não posso deixar de falar, você estava um espetáculo de LINDA neste dia.</p>";
+          "<p>Esse é um dos dias mais especiais para mim. Foi o dia em que marcamos nosso primeiro encontro. Você " +
+          "convidou-me a te acompanhar numa apresentação de <strong>Ballet</strong> e eu, sabendo que é algo que você " +
+          "ama, me senti muito feliz em poder te acompanhar.</p><p>Foi um dia incrível, cheio de risadas, conversas e muita " +
+          "cumplicidade.</p><p> Foi o dia em que percebi que você era muito mais do que eu imaginava.</p><p>Ah, não " +
+          "posso deixar de falar, você estava um espetáculo de LINDA neste dia.</p>";
         break;
       case "5/6":
         titulo = "5 de Junho de 2024";
         mensagem =
-          "<p>Dessa vez, o convite foi meu. Marcamos de nos encontrar na orla de Cabo Branco, sob o luar claro e a brisa suave do mar. Foi onde, além de nos conhecermos melhor, demos o nosso primeiro beijo.</p><p>Uma noite inesquecível! Eu já sabia que queria você!</p>";
+          "<p>Dessa vez, o convite foi meu. Marcamos de nos encontrar na orla de Cabo Branco, sob o luar claro e a " +
+          "brisa suave do mar. Foi onde, além de nos conhecermos melhor, demos o nosso primeiro beijo.</p><p>Uma " +
+          "noite inesquecível! Eu já sabia que queria você!</p>";
         break;
       case "11/6":
         titulo = "11 de Junho de 2024";
         mensagem =
-          "<p>Nos encontramos novamente na orla de Cabo Branco, era o nosso ponto de calmaria. Mas antes, demos uma passada rápida no Açaí Empório.</p><p>Depois, sentamos na areia da praia e ficamos curtindo a presença um do outro. Conversamos sobre várias coisas, nossos desejos e planos. </p>";
+          "<p>Era véspera do dia dos namorados e nos encontramos novamente na orla de Cabo Branco, era o nosso ponto de" +
+          " calmaria. Mas antes, demos uma passada rápida numa açaíteria.</p><p>Depois, sentamos na areia da praia e " +
+          "ficamos curtindo a presença um do outro. Conversamos sobre várias coisas, nossos desejos e planos.</p>";
         break;
       case "17/6":
         titulo = "17 de Junho de 2024";
         mensagem =
-          "<p>Neste dia, tomamos um sorvete aqui pertinho e depois ficamos conversando por horas e horas.</p><p>Também não posso deixar de falar do presente que você me deu, um quadro pintado por você mesma. Esse quadro tem muito valor para mim, obrigado!</p>";
+          "<p>Neste dia, tomamos um sorvete aqui pertinho de cada e depois ficamos conversando por horas e horas.</p>" +
+          "<p>Também não posso deixar de falar do presente que você me deu, um quadro pintado por você mesma. " +
+          "Esse quadro tem muito valor para mim, obrigado!</p>";
         break;
-      case "21/6":
-        titulo = "21 de Junho de 2024";
+      case "20/6":
+        titulo = "20 de Junho de 2024";
         mensagem =
-          "<p>Mais uma vez nos encontramos em meu apartamento. Você não quis sair para nenhum lugar. Segundo você, o lugar não importava, e sim minha presença. Dessa vez, você estava menos tímida e curtimos mais, tomamos um sorvete e ficamos deitados ouvindo suas músicas favoritas de MPB.</p><p>...e como sempre, a hora em que você tinha que voltar para casa era sempre difícil.</p>";
+          "<p>Neste dia, você não quis sair para nenhum lugar. Segundo você,  lugar não importava, e sim a minha presença. " +
+          "Então, você veio me ver em meu apartamento. Dessa vez, você estava menos tímida e curtimos mais, tomamos " +
+          "um sorvete e ficamos deitados ouvindo suas músicas favoritas de MPB.</p><p>...e como sempre, a hora em que " +
+          "você tinha que voltar para casa era sempre a mais difícil.</p>";
         break;
       case "25/6":
         titulo = "25 de Junho de 2024";
         mensagem =
-          "<p>Mais um dia em que tivemos juntinhos, matando a saudade e recarregando nossas energias após um dia cansativo.</p><p>Te agradeço por todo momento como este!</p>";
+          "<p>Mais um dia em que tivemos juntinhos, matando a saudade e recarregando nossas energias após um dia " +
+          "cansativo.</p><p>Muito grato por todo momento como este!</p>";
         break;
-      case "1/7":
-        titulo = "1 de Julho de 2024";
+      case "30/6":
+        titulo = "30 de Junho de 2024";
         mensagem =
-          "<p></p>Iniciamos a semana se vendo novamente. Você veio me visitar e, como sempre, foi maravilhoso compartilhar uma parte do meu dia com você.</p>";
+          "<p></p>Terminamos o mês se vendo novamente. Você veio me visitar e, como sempre, foi maravilhoso " +
+          "compartilhar uma parte do meu dia com você.</p>";
         break;
       case "3/7":
         titulo = "3 de Julho de 2024";
         mensagem =
-          "<p>Contra todas as expectativas, conseguimos nos ver novamente na mesma semana. Embora tínhamos conversado que seria uma semana mais puxada para ambos, você conseguiu me encaixar num tempinho livre que teve.</p>";
+          "<p>Contra todas as expectativas, conseguimos nos ver novamente na mesma semana. Embora tínhamos conversado " +
+          "que seria uma semana mais puxada para ambos, você conseguiu me encaixar num tempinho livre que teve.</p>";
         break;
       case "5/7":
         titulo = "5 de Julho de 2024";
         mensagem =
-          "<p>Foi um dia um pouco atípico. Tivemos um desentendimento, mas logo ficamos tranquilos. Você ficou com dor de cabeça, estava cansada também devido a um dia cheio.</p><p>Mesmo assim, por volta das 18:30 você perguntou se poderia passar no meu apartamento para me ver. O seu esforço me conquista sempre!</p>";
+          "<p>Foi um dia um pouco atípico. Tivemos um desentendimento, mas logo ficamos tranquilos. Você ficou com " +
+          "dor de cabeça e cansada devido a um dia cheio.</p><p>Mesmo assim, após um encontro com suas amigas, por " +
+          "volta das 18:30 você perguntou se poderia passar no meu apartamento para me ver, . O seu esforço me " +
+          "conquista sempre!</p>";
         break;
       case "7/7":
         titulo = "7 de Julho de 2024";
